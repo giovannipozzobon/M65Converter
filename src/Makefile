@@ -1,4 +1,4 @@
-SHELL := pwsh.exe
+SHELL := pwsh
 .SHELLFLAGS := -NoProfile -Command
 
 TARGETS := win-x64 win-x86 linux-x64 osx-x64 osx-arm64
